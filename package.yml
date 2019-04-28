@@ -1,0 +1,21 @@
+name       : minecraft
+version    : 2.1.3676
+release    : 1
+source     :
+    - https://launcher.mojang.com/download/Minecraft.tar.gz : 06e7649f702b782fd606361a18ce133e108cc33a11a800abea0ba5f4caba2fe6
+license    : GPL-3.0-or-later
+summary    : An official launcher for Minecraft written in Javascript.
+description: |
+    An official launcher for Minecraft written in Javascript.
+install    : |
+    install -dm00644                                $installdir/opt/minecraft
+    cp -R   *                                       $installdir/opt/minecraft
+
+    # Install icons
+    for icon_size in 48 64 256
+    do
+        install -D -m00644 $pkgfiles/icon_${icon_size}x${icon_size}.png $installdir/usr/share/icons/hicolor/${icon_size}x${icon_size}/apps/minecraft.png
+    done
+
+    # Desktop File
+    install -D -m00644 $pkgfiles/minecraft.desktop $installdir/usr/share/applications/minecraft.desktop

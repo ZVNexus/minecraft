@@ -1,0 +1,98 @@
+<PISI>
+    <Source>
+        <Name>minecraft</Name>
+        <Packager>
+            <Name>Alexander J. Koskovich</Name>
+            <Email>zvnexus@outlook.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <Summary xml:lang="en">An official launcher for Minecraft written in Javascript.</Summary>
+        <Description xml:lang="en">An official launcher for Minecraft written in Javascript.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>minecraft</Name>
+        <Summary xml:lang="en">An official launcher for Minecraft written in Javascript.</Summary>
+        <Description xml:lang="en">An official launcher for Minecraft written in Javascript.
+</Description>
+        <Files>
+            <Path fileType="data">/opt/minecraft/cef.pak</Path>
+            <Path fileType="data">/opt/minecraft/cef_100_percent.pak</Path>
+            <Path fileType="data">/opt/minecraft/cef_200_percent.pak</Path>
+            <Path fileType="data">/opt/minecraft/cef_extensions.pak</Path>
+            <Path fileType="data">/opt/minecraft/chrome-sandbox</Path>
+            <Path fileType="data">/opt/minecraft/icudtl.dat</Path>
+            <Path fileType="data">/opt/minecraft/libcef.so</Path>
+            <Path fileType="data">/opt/minecraft/locales/am.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ar.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/bg.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/bn.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ca.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/cs.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/da.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/de.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/el.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/en-GB.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/en-US.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/es-419.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/es.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/et.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/fa.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/fi.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/fil.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/fr.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/gu.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/he.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/hi.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/hr.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/hu.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/id.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/it.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ja.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/kn.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ko.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/lt.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/lv.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ml.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/mr.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ms.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/nb.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/nl.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/pl.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/pt-BR.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/pt-PT.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ro.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ru.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/sk.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/sl.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/sr.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/sv.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/sw.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/ta.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/te.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/th.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/tr.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/uk.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/vi.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/zh-CN.pak</Path>
+            <Path fileType="data">/opt/minecraft/locales/zh-TW.pak</Path>
+            <Path fileType="data">/opt/minecraft/minecraft-launcher</Path>
+            <Path fileType="data">/opt/minecraft/natives_blob.bin</Path>
+            <Path fileType="data">/opt/minecraft/snapshot_blob.bin</Path>
+            <Path fileType="data">/usr/share/applications/minecraft.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/minecraft.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/minecraft.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/minecraft.png</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-04-28</Date>
+            <Version>0.2.8</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Alexander J. Koskovich</Name>
+            <Email>zvnexus@outlook.com</Email>
+        </Update>
+    </History>
+</PISI>
